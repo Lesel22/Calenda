@@ -29,11 +29,11 @@ El frontend consume la API del backend para gestionar autenticación, datos de u
 ---
 
 ## 👤 Demo Accounts
-Owner:
-owner@test.com / 123456
+- Owner:
+- owner@test.com / 123456
 
-User:
-user@test.com / 123456
+ -User:
+ -user@test.com / 123456
 
 ---
 
@@ -49,12 +49,12 @@ user@test.com / 123456
 
 
 ## 🏗️ Tech Stack
-Frontend: React
-Backend: Django REST Framework
-DB: PostgreSQL
-Auth: JWT (access + refresh cookies)
-Storage: Cloudinary
+- Frontend: React
+- Backend: Django REST Framework
+- DB: PostgreSQL
+- Auth: JWT (access + refresh cookies)
+- Storage: Cloudinary
 
 ## ⚠️ Notas
-La base de datos puede reiniciarse (Render free tier).
-Se generan datos automáticamente al iniciar.
+- La base de datos puede reiniciarse (Render free tier).
+- Se generan datos automáticamente al iniciar.
