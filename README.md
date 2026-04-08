@@ -30,10 +30,10 @@ El frontend consume la API del backend para gestionar autenticación, datos de u
 
 ## 👤 Demo Accounts
 - Owner:
-- owner@test.com / 123456
+owner@test.com / 123456
 
- -User:
- -user@test.com / 123456
+- User:
+user@test.com / 123456
 
 ---
 
