@@ -11,7 +11,7 @@ El código está separado en dos repositorios independientes:
 ## 🚀 Demo (Deploys)
 
 - Frontend: [Calenda-app](https://calenda-d22.netlify.app/)
-- Backend API: https://mi-proyecto.onrender.com
+- Backend API: [Calenda-onrender](https://gestorevento-backend.onrender.com)
 
 ---
 
@@ -28,34 +28,33 @@ El frontend consume la API del backend para gestionar autenticación, datos de u
 
 ---
 
-## 🏗️ Arquitectura
+## 👤 Demo Accounts
+Owner:
+owner@test.com / 123456
 
-- **Frontend**: SPA desplegada en Netlify  
-- **Backend**: API REST desplegada en Render  
-- **Autenticación**: JWT con refresh token en cookie `httpOnly`  
-- **Comunicación**: HTTPS con endpoints protegidos  
-
----
-
-## 📌 Estructura de repositorios
-
-### Frontend
-- Vite + React (Vue)
-- UI responsive
-- Manejo de estado y rutas
-- Autenticación y manejo de sesión
-
-### Backend
-- Django 
-- API REST con JWT
-- Persistencia en DB (PostgreSQL)
-- Endpoints de autenticación y CRUD
+User:
+user@test.com / 123456
 
 ---
 
-## 🧠 Roadmap (opcional)
+## 🧠 Features
+- Autenticación con JWT + cookies seguras
+- Creación y edición de eventos
+- Inscripción a eventos
+- Sistema de roles hibridos (propietario & participante)
+- Manejo de imágenes con Cloudinary
+- Seed automático de datos demo
 
-- [ ] 2FA (OTP)
-- [ ] Roles y permisos
-- [ ] Tests e2e
-- [ ] Mejoras de performance
+---
+
+
+## 🏗️ Tech Stack
+Frontend: React
+Backend: Django REST Framework
+DB: PostgreSQL
+Auth: JWT (access + refresh cookies)
+Storage: Cloudinary
+
+## ⚠️ Notas
+La base de datos puede reiniciarse (Render free tier).
+Se generan datos automáticamente al iniciar.
