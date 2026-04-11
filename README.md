@@ -1,5 +1,7 @@
 # Calenda
 
+NOTA: La app puede tardar unos segundos en iniciar (hosting gratuito)
+
 Este repositorio funciona como **documentación central** y punto de referencia del proyecto.  
 El código está separado en dos repositorios independientes:
 
